@@ -1,0 +1,10 @@
+.img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.userProfile{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}

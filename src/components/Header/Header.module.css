@@ -1,0 +1,59 @@
+.header {
+    grid-area: header;
+    background-color: #58c5c0;
+}
+
+.header img {
+    width: 35%;
+    height: 35%;
+}
+
+.headerWrapper {
+    display: flex;
+}
+
+.headerImage {
+    object-fit: contain;
+    width: 5%;
+    height: 5%;
+    margin-left: 70px;
+}
+
+.login {
+    color: black;
+    display: flex;
+
+}
+
+.login__innerWrapper {
+    display: flex;
+}
+
+.logout__btn {
+    width: 60px;
+    height: 20px;
+    margin: 20px 20px 0 20px ;
+}
+
+.login__wrapper {
+    display: flex;
+    margin-left: 30%;
+
+}
+
+.login + .login {
+    margin-left: 20px;
+}
+
+.login span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.header__main__content {
+    display: flex;
+}
+
+.headerWrapper h3 {
+    margin-left: 15px;
+}
